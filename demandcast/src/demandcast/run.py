@@ -1,4 +1,5 @@
 """CLI: generate data, backtest, write metrics + plots."""
+
 from __future__ import annotations
 import argparse, json
 from pathlib import Path
