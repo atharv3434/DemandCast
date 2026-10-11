@@ -1,0 +1,56 @@
+{
+  "folds": [
+    {
+      "fold": 1,
+      "test_start": "2024-09-11",
+      "n_test": 1120,
+      "wape_model": 0.2888,
+      "wape_naive": 0.3854,
+      "coverage_raw": 0.7348,
+      "coverage_cqr": 0.7634,
+      "width_cqr_rel": 0.8819,
+      "q_hat_log": 0.0289
+    },
+    {
+      "fold": 2,
+      "test_start": "2024-10-09",
+      "n_test": 1120,
+      "wape_model": 0.2867,
+      "wape_naive": 0.3863,
+      "coverage_raw": 0.742,
+      "coverage_cqr": 0.8027,
+      "width_cqr_rel": 0.9338,
+      "q_hat_log": 0.0645
+    },
+    {
+      "fold": 3,
+      "test_start": "2024-11-06",
+      "n_test": 1120,
+      "wape_model": 0.2617,
+      "wape_naive": 0.3782,
+      "coverage_raw": 0.7964,
+      "coverage_cqr": 0.8509,
+      "width_cqr_rel": 0.9296,
+      "q_hat_log": 0.0605
+    },
+    {
+      "fold": 4,
+      "test_start": "2024-12-04",
+      "n_test": 1120,
+      "wape_model": 0.2814,
+      "wape_naive": 0.3952,
+      "coverage_raw": 0.7455,
+      "coverage_cqr": 0.7446,
+      "width_cqr_rel": 0.7707,
+      "q_hat_log": -0.0017
+    }
+  ],
+  "mean": {
+    "wape_model": 0.2796,
+    "wape_naive": 0.3863,
+    "coverage_raw": 0.7547,
+    "coverage_cqr": 0.7904,
+    "width_cqr_rel": 0.879,
+    "wape_improvement_pct": 27.6
+  }
+}
