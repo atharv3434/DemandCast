@@ -1,4 +1,5 @@
 """Synthetic retail demand: many series with trend, weekly/yearly seasonality, promos, holidays."""
+
 from __future__ import annotations
 import datetime as dt
 import numpy as np
