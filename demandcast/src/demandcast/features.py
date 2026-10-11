@@ -1,7 +1,9 @@
-"""Leak-free feature engineering with Polars window expressions.
+"""
+Leak-free feature engineering with Polars window expressions.
 
 Every lag/rolling feature is shifted by at least HORIZON days, so a *direct* multi-step
 forecast can be made for any day inside the horizon without recursive prediction.
+
 """
 from __future__ import annotations
 import polars as pl
