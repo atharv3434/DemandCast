@@ -1,4 +1,5 @@
 """Rolling-origin backtest. Per fold: train < calibration window < test window (28d each)."""
+
 from __future__ import annotations
 import numpy as np
 import polars as pl
